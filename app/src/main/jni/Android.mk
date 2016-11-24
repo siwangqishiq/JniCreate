@@ -17,6 +17,9 @@ LOCAL_PATH := $(call my-dir)
 include $(CLEAR_VARS)
 
 LOCAL_MODULE    := createobj
-LOCAL_SRC_FILES := createobj.c
+LOCAL_SRC_FILES := \
+                   	createobj.c \
+                   	json.c \
+
 
 include $(BUILD_SHARED_LIBRARY)

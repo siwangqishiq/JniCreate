@@ -16,6 +16,9 @@ extern "C" {
 JNIEXPORT jobject JNICALL Java_com_xinlan_jnicreate_NativeLib_createStudent
   (JNIEnv *, jclass, jstring, jint, jchar);
 
+JNIEXPORT jobject JNICALL Java_com_xinlan_jnicreate_NativeLib_parseJSON
+        (JNIEnv *, jclass, jstring);
+
 #ifdef __cplusplus
 }
 #endif

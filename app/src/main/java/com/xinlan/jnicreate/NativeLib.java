@@ -13,5 +13,7 @@ public class NativeLib {
 
     public native static Student createStudent(String name, int age, char sex);
 
-    
+
+    public native static Student parseJSON(String src);
+
 }//end class

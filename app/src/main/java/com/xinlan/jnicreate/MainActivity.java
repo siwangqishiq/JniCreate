@@ -11,6 +11,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private View mCreateBtn;
     private TextView mText;
 
+    public static final String src = "{'name':'毛利兰222',age:'12'}";
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -24,7 +26,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     @Override
     public void onClick(View view) {
-        Student stu = NativeLib.createStudent("毛利兰", 21, 'm');
+        //Student stu = NativeLib.createStudent("毛利兰", 21, 'm');
+        Student stu  = NativeLib.parseJSON(src);
 
         mText.setText(stu.toString());
     }
