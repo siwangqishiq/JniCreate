@@ -11,7 +11,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private View mCreateBtn;
     private TextView mText;
 
-    public static final String src = "{'name':'毛利兰222',age:'12'}";
+    public static final String src = "{\"name\":\"maolilan毛利兰\"}";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
