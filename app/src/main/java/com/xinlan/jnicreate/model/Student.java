@@ -12,6 +12,10 @@ public class Student {
     private char sex;
     private String extra;
 
+    private String fullName;
+    private String email;
+    private String remarkName;
+
     public String getName() {
         return name;
     }

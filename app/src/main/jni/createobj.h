@@ -20,6 +20,9 @@ JNIEXPORT jobject JNICALL Java_com_xinlan_jnicreate_NativeLib_createStudent
 JNIEXPORT jobject JNICALL Java_com_xinlan_jnicreate_NativeLib_parseJSON
         (JNIEnv *, jclass, jstring);
 
+JNIEXPORT jobject JNICALL Java_com_xinlan_jnicreate_NativeLib_parseList
+        (JNIEnv *, jclass, jstring);
+
 #ifdef __cplusplus
 }
 #endif
